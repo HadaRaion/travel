@@ -3,4 +3,8 @@ exports.handler = function(event, context, callback) {
       statusCode: 200,
       body: "Welcome to the super secret area."
    })
+   callback(null, {
+      statusCode: 200,
+      body: "Welcome to the super secret area."
+    })
 }
